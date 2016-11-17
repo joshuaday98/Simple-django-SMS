@@ -1,0 +1,20 @@
+{% load staticfiles %}
+<!doctype html>
+<html>
+  <head>
+    <title>Aliens</title>
+    <link rel='stylesheet' href='{% static "css/sms.css" %}'
+  </head>
+  <body>
+    <main>
+      <h1>Text People!!</h1>
+    <div id='field_cont'>
+      <form action="" method="post">
+        {% csrf_token %}
+        {{ form }}
+        <input type="submit" value="Submit" />
+      </form>
+    </div>
+    </main>
+  </body>
+</html>

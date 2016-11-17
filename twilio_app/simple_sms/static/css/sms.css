@@ -1,0 +1,19 @@
+#field_cont{
+  padding-right: 30%
+}
+
+body{
+  padding-left: 44%;
+  padding-top: 15%;
+  padding-right: 45%;
+}
+
+h1{
+  font-size: 35px;
+  color: orange;
+}
+
+main{
+  background-color: grey;
+  border: 3px solid black
+}
